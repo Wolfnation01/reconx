@@ -67,3 +67,7 @@ python reconx.py -t example.com --robots --scope "example.com,*.dev.example.com"
 # Save a JSON report
 python reconx.py -t example.com -o myreport.json
 
+#For termux users
+pkg install python clang libxml2 libxslt
+pip install -r requirements.txt
+
