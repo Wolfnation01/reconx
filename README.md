@@ -40,6 +40,7 @@ Unauthorized scanning is illegal under the **Computer Fraud and Abuse Act (CFAA)
 ```bash
 # Clone the repository
 git clone https://github.com/Wolfnation01/Reconx-tool.git
+
 cd Reconx-tool
 
 # Install dependencies
@@ -71,3 +72,6 @@ python reconx.py -t example.com -o myreport.json
 pkg install python clang libxml2 libxslt
 pip install -r requirements.txt
 
+## Documentation
+
+- Full Usage Guide: `docs/usage.md`
