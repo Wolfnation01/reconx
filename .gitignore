@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Scan outputs (auto-generated JSON reports)
+*.json
+!examples/report_example.json
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+
